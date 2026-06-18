@@ -9,7 +9,7 @@
         dest: "/opt/tomcat/webapps/AnsibleEx.war"
         remote_src: no
  
-  tasks:
+  
     - name: Restart Tomcat
       shell: |
         "/opt/tomcat/bin/shutdown.sh" || true
